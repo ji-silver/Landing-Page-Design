@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    box-sizing: border-box;
     background: #1f2020;
 }
 
@@ -16,7 +17,7 @@ body {
     background-image: url('../img/3.png');
     position: absolute;
     bottom: -100%;
-    left: 7%;
+    left: 13%;
     animation: anim 2s forwards, anim2 2s forwards 2.5s;
 }
 
@@ -42,7 +43,7 @@ body {
 @keyframes anim2 {
     from {
         
-        left: 7%;
+        left: 13%;
         width: 1400px;
     }
     to {
@@ -59,7 +60,7 @@ body {
     font-size: 9em;
     line-height: 130px;
     position: absolute;
-    top: 250px;
+    top: 300px;
     left: 100px;
     overflow: hidden;
 }
@@ -155,5 +156,27 @@ body {
     }
     to {
         top:0%;
+    }
+}
+
+@media (max-width: 1530px) {
+    .container .menu { 
+        margin-right: 100px;
+    }
+
+    .box1 {
+        left: 3%;
+    }
+
+    @keyframes anim2 {
+        from {
+            
+            left: 3%;
+            width: 1400px;
+        }
+        to {
+            width: 0px;
+            left: 10%;
+        }
     }
 }
