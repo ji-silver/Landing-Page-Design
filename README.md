@@ -8,3 +8,5 @@
 <img width="600" alt="캡처" src="https://user-images.githubusercontent.com/59919953/101504934-1d66b200-39b7-11eb-8053-a3c36ffdd338.PNG">
 
 - style <a href="https://ji-silver.github.io/Landing-Page-Design/style3/index.html">#3</a>
+
+![ezgif-6-8ba6786858c7](https://user-images.githubusercontent.com/59919953/101506022-4dfb1b80-39b8-11eb-8fd9-22b5b768ed02.gif)
